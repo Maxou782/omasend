@@ -8,10 +8,10 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const asset = (path: string) => `${base}/${path}`;
 const repo = 'https://github.com/huacnlee/omasend';
 const canonical = new URL(asset(language === 'en' ? '' : 'zh-CN/'), Astro.site);
-const shellCommand = 'curl -fsSL https://github.com/huacnlee/omasend/raw/refs/heads/main/install.sh | sh';
+const shellCommand = 'curl -fsSL https://huacnlee.github.io/omasend/install.sh | sh';
 const commands = [
   { id: 'linux', label: 'macOS / Linux', file: 'install.sh', command: shellCommand },
-  { id: 'windows', label: 'Windows', file: 'install.ps1', command: 'irm https://github.com/huacnlee/omasend/raw/refs/heads/main/install.ps1 | iex' },
+  { id: 'windows', label: 'Windows', file: 'install.ps1', command: 'irm https://huacnlee.github.io/omasend/install.ps1 | iex' },
 ];
 const relatedProjects = [
   { name: 'Omamail', href: 'https://github.com/huacnlee/omamail', description: t.relatedDescriptions.omamail },

@@ -26,8 +26,8 @@ test('English and Chinese routes keep correct links, language and metadata', asy
   await expect(page.locator('link[rel="canonical"]')).toHaveAttribute('href', 'https://huacnlee.github.io/omasend/zh-CN/');
   await expect(page.locator('#download')).toHaveCount(0);
   await expect(page.getByRole('link', { name: 'GitHub', exact: true })).toHaveAttribute('href', 'https://github.com/huacnlee/omasend');
-  await expect(page.locator('#command-linux')).toContainText('/main/install.sh | sh');
-  await expect(page.locator('#command-windows')).toContainText('/main/install.ps1 | iex');
+  await expect(page.locator('#command-linux')).toContainText('/omasend/install.sh | sh');
+  await expect(page.locator('#command-windows')).toContainText('/omasend/install.ps1 | iex');
   expect(errors).toEqual([]);
 });
 
@@ -102,7 +102,7 @@ test('tabs switch with mouse and keyboard and copy only the active command', asy
   await expect(page.getByRole('tabpanel')).toHaveAttribute('id', 'panel-windows');
   await page.getByRole('button', { name: 'Copy', exact: true }).click();
   await expect(page.getByRole('status')).toHaveText('Copied');
-  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe('irm https://github.com/huacnlee/omasend/raw/refs/heads/main/install.ps1 | iex');
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe('irm https://huacnlee.github.io/omasend/install.ps1 | iex');
   await page.getByRole('tab', { name: 'Windows', exact: true }).focus();
   await page.keyboard.press('Home');
   await expect(page.getByRole('tab', { name: 'macOS / Linux', exact: true })).toBeFocused();
@@ -114,7 +114,7 @@ test('tabs switch with mouse and keyboard and copy only the active command', asy
   await expect(page.getByRole('tab', { name: 'Windows', exact: true })).toBeFocused();
   await linux.click();
   await page.getByRole('button', { name: 'Copy', exact: true }).click();
-  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe('curl -fsSL https://github.com/huacnlee/omasend/raw/refs/heads/main/install.sh | sh');
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toBe('curl -fsSL https://huacnlee.github.io/omasend/install.sh | sh');
 });
 
 for (const [width, height] of [[360, 640], [1440, 900]]) {

@@ -42,22 +42,16 @@ Keep both devices on the same network, and allow TCP and UDP port `53317` throug
 
 Supports Linux x86_64 and ARM64, macOS Apple Silicon and Intel, and Windows x86_64.
 
-**Omarchy**
-
-```sh
-omarchy pkg add omasend
-```
-
 **macOS / Linux**
 
 ```sh
-curl -fsSL https://github.com/huacnlee/omasend/raw/refs/heads/main/install.sh | sh
+curl -fsSL https://huacnlee.github.io/omasend/install.sh | sh
 ```
 
 **Windows PowerShell**
 
 ```powershell
-irm https://github.com/huacnlee/omasend/raw/refs/heads/main/install.ps1 | iex
+irm https://huacnlee.github.io/omasend/install.ps1 | iex
 ```
 
 The installer selects the latest release for your device. For manual installation,

@@ -15,6 +15,6 @@ The default base is `/omasend`. Set `BASE_PATH` and `SITE_URL` together for anot
 
 `.github/workflows/website.yml` builds and tests pull requests, then deploys `main` using GitHub Pages. Repository Settings → Pages → Source must be **GitHub Actions**. No custom domain or external hosting credentials are required. The workflow does not publish a preview from a pull request.
 
-Installer commands use `install.sh` and `install.ps1` from `main`; these become usable after the implementation is merged and a release is published. macOS downloads are `.tar.gz`, Linux `.tar.gz`, and Windows `.zip`.
+Installer commands use `install.sh` and `install.ps1`, served from `public/` as symlinks to the repository root; these become usable after the implementation is merged and a release is published. macOS downloads are `.tar.gz`, Linux `.tar.gz`, and Windows `.zip`.
 
 The network artwork is an illustration of local transfer, not a screenshot or a browser implementation of Omasend. `public/icon.png` is copied unchanged from `assets/omasend.png`; its provenance is recorded in `assets/icon-provenance.txt`. The light/dark toggle follows the system until an explicit choice is saved, using Tokyo Night and Flexoki Light palettes. Language is selected from the header menu. The site does not claim mobile interoperability or Windows runtime testing has been completed.
