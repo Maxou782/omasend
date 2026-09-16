@@ -12,6 +12,25 @@ and Windows.
 
 [Website](https://huacnlee.github.io/omasend/) · [Download](https://github.com/huacnlee/omasend/releases) · [Installation guide](docs/install.md)
 
+## Install
+
+Supports Linux x86_64 and ARM64, macOS Apple Silicon and Intel, and Windows x86_64.
+
+**macOS / Linux**
+
+```sh
+curl -fsSL https://huacnlee.github.io/omasend/install.sh | sh
+```
+
+**Windows PowerShell**
+
+```powershell
+irm https://huacnlee.github.io/omasend/install.ps1 | iex
+```
+
+The installer selects the latest release for your device. For manual installation,
+custom locations, or removal, see the [installation guide](docs/install.md).
+
 ## Features
 
 - **Share with nearby devices.** Connect to Omasend and [LocalSend](https://localsend.org) clients on the same network.
@@ -37,25 +56,6 @@ device in Omasend, and Omasend appears in it. There is nothing to pair and no br
   cannot yet send to a device that requires one.
 
 Keep both devices on the same network, and allow TCP and UDP port `53317` through the firewall.
-
-## Install
-
-Supports Linux x86_64 and ARM64, macOS Apple Silicon and Intel, and Windows x86_64.
-
-**macOS / Linux**
-
-```sh
-curl -fsSL https://huacnlee.github.io/omasend/install.sh | sh
-```
-
-**Windows PowerShell**
-
-```powershell
-irm https://huacnlee.github.io/omasend/install.ps1 | iex
-```
-
-The installer selects the latest release for your device. For manual installation,
-custom locations, or removal, see the [installation guide](docs/install.md).
 
 ## Send something
 
